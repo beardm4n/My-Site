@@ -116,6 +116,31 @@ body {
 
          // let's set an external indents for header
          margin: 30px 0 40px 0;
+         
+         .header-line {
+            // /* WE WILL CREATE SETTINGS FOR h1 */
+            // /* set the size of headline */
+            font-size: @h1Size;
+            // /* set the thickness of headline  */
+            font-weight: @h1Weight;
+            // /* set the text color */
+            color: @headlineColor;
+            // /* set transparancy */
+            opacity: 0.9;
+         }
+         
+         .header-line-paragraph {
+            // /* WE WILL CREATE SETTINGS FOR PARAGRAPH */
+            // /* set the size of the paragraph */
+            font-size: @headerLineSize;
+            // /* set transparency */
+            opacity: 0.8;
+            // /* set the text color */
+            color: @headerLineColor;
+            
+            // /* set external padding */
+            margin: 10px 0;
+         }   
       }
       
       .shadow-header {
@@ -123,30 +148,7 @@ body {
          box-shadow: 0px 3px 5px 2px @shadowColor; /* options of the shadow */
       }
       
-      .header-line {
-         // /* WE WILL CREATE SETTINGS FOR h1 */
-         // /* set the size of headline */
-         font-size: @h1Size;
-         // /* set the thickness of headline  */
-         font-weight: @h1Weight;
-         // /* set the text color */
-         color: @headlineColor;
-         // /* set transparancy */
-         opacity: 0.9;
-      }
-      
-      .header-line-paragraph {
-         // /* WE WILL CREATE SETTINGS FOR PARAGRAPH */
-         // /* set the size of the paragraph */
-         font-size: @headerLineSize;
-         // /* set transparency */
-         opacity: 0.8;
-         // /* set the text color */
-         color: @headerLineColor;
-         
-         // /* set external padding */
-         margin: 10px 0;
-      }
+
 
    // ====================================================================================================
 
